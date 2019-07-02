@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87886F5957FF376744DB765A /* Pods_Tyanmao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED7E04851698DBA32772459B /* Pods_Tyanmao.framework */; };
 		EF45F40B22CAEDAB00BB4C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45F40A22CAEDAB00BB4C2C /* AppDelegate.swift */; };
 		EF45F40D22CAEDAB00BB4C2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45F40C22CAEDAB00BB4C2C /* ViewController.swift */; };
 		EF45F41022CAEDAB00BB4C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45F40E22CAEDAB00BB4C2C /* Main.storyboard */; };
 		EF45F41322CAEDAB00BB4C2C /* Tyanmao.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EF45F41122CAEDAB00BB4C2C /* Tyanmao.xcdatamodeld */; };
 		EF45F41522CAEDAC00BB4C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF45F41422CAEDAC00BB4C2C /* Assets.xcassets */; };
 		EF45F41822CAEDAC00BB4C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45F41622CAEDAC00BB4C2C /* LaunchScreen.storyboard */; };
+		EF45F42022CAF38E00BB4C2C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45F41F22CAF38E00BB4C2C /* CustomButton.swift */; };
+		EF45F42222CAF3C600BB4C2C /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF45F42122CAF3C600BB4C2C /* SignIn.storyboard */; };
+		EF45F42422CAF3DE00BB4C2C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45F42322CAF3DE00BB4C2C /* SignUpViewController.swift */; };
+		EF45F42622CAF3E300BB4C2C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45F42522CAF3E300BB4C2C /* SignInViewController.swift */; };
+		EF45F42922CAF49C00BB4C2C /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF45F42822CAF49C00BB4C2C /* APIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		56E062F51AE739FA33384349 /* Pods-Tyanmao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tyanmao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tyanmao/Pods-Tyanmao.debug.xcconfig"; sourceTree = "<group>"; };
+		B62742688DD65A84712DE604 /* Pods-Tyanmao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tyanmao.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tyanmao/Pods-Tyanmao.release.xcconfig"; sourceTree = "<group>"; };
+		ED7E04851698DBA32772459B /* Pods_Tyanmao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tyanmao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF45F40722CAEDAB00BB4C2C /* Tyanmao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tyanmao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF45F40A22CAEDAB00BB4C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF45F40C22CAEDAB00BB4C2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		EF45F41422CAEDAC00BB4C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF45F41722CAEDAC00BB4C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF45F41922CAEDAC00BB4C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF45F41F22CAF38E00BB4C2C /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EF45F42122CAF3C600BB4C2C /* SignIn.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		EF45F42322CAF3DE00BB4C2C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EF45F42522CAF3E300BB4C2C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EF45F42822CAF49C00BB4C2C /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87886F5957FF376744DB765A /* Pods_Tyanmao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C5F98CEC4CDAD36B446750D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED7E04851698DBA32772459B /* Pods_Tyanmao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A5231E95A5F9D226B6CF889 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56E062F51AE739FA33384349 /* Pods-Tyanmao.debug.xcconfig */,
+				B62742688DD65A84712DE604 /* Pods-Tyanmao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EF45F3FE22CAEDAB00BB4C2C = {
 			isa = PBXGroup;
 			children = (
 				EF45F40922CAEDAB00BB4C2C /* Tyanmao */,
 				EF45F40822CAEDAB00BB4C2C /* Products */,
+				3A5231E95A5F9D226B6CF889 /* Pods */,
+				2C5F98CEC4CDAD36B446750D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,7 +91,10 @@
 			isa = PBXGroup;
 			children = (
 				EF45F40A22CAEDAB00BB4C2C /* AppDelegate.swift */,
+				EF45F42A22CAF64400BB4C2C /* Models */,
+				EF45F42722CAF45C00BB4C2C /* LogIn */,
 				EF45F40C22CAEDAB00BB4C2C /* ViewController.swift */,
+				EF45F42122CAF3C600BB4C2C /* SignIn.storyboard */,
 				EF45F40E22CAEDAB00BB4C2C /* Main.storyboard */,
 				EF45F41422CAEDAC00BB4C2C /* Assets.xcassets */,
 				EF45F41622CAEDAC00BB4C2C /* LaunchScreen.storyboard */,
@@ -67,6 +104,24 @@
 			path = Tyanmao;
 			sourceTree = "<group>";
 		};
+		EF45F42722CAF45C00BB4C2C /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				EF45F42322CAF3DE00BB4C2C /* SignUpViewController.swift */,
+				EF45F42522CAF3E300BB4C2C /* SignInViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		EF45F42A22CAF64400BB4C2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EF45F42822CAF49C00BB4C2C /* APIKey.swift */,
+				EF45F41F22CAF38E00BB4C2C /* CustomButton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF45F41C22CAEDAC00BB4C2C /* Build configuration list for PBXNativeTarget "Tyanmao" */;
 			buildPhases = (
+				0F9D757B772144DCC67CB77E /* [CP] Check Pods Manifest.lock */,
 				EF45F40322CAEDAB00BB4C2C /* Sources */,
 				EF45F40422CAEDAB00BB4C2C /* Frameworks */,
 				EF45F40522CAEDAB00BB4C2C /* Resources */,
+				049F8AA8F1DF72A516DA784C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF45F42222CAF3C600BB4C2C /* SignIn.storyboard in Resources */,
 				EF45F41822CAEDAC00BB4C2C /* LaunchScreen.storyboard in Resources */,
 				EF45F41522CAEDAC00BB4C2C /* Assets.xcassets in Resources */,
 				EF45F41022CAEDAB00BB4C2C /* Main.storyboard in Resources */,
@@ -133,14 +191,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		049F8AA8F1DF72A516DA784C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tyanmao/Pods-Tyanmao-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/NCMB/NCMB.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NCMB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tyanmao/Pods-Tyanmao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F9D757B772144DCC67CB77E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tyanmao-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF45F40322CAEDAB00BB4C2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF45F42022CAF38E00BB4C2C /* CustomButton.swift in Sources */,
+				EF45F42922CAF49C00BB4C2C /* APIKey.swift in Sources */,
 				EF45F40D22CAEDAB00BB4C2C /* ViewController.swift in Sources */,
+				EF45F42622CAF3E300BB4C2C /* SignInViewController.swift in Sources */,
 				EF45F41322CAEDAB00BB4C2C /* Tyanmao.xcdatamodeld in Sources */,
 				EF45F40B22CAEDAB00BB4C2C /* AppDelegate.swift in Sources */,
+				EF45F42422CAF3DE00BB4C2C /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +387,7 @@
 		};
 		EF45F41D22CAEDAC00BB4C2C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E062F51AE739FA33384349 /* Pods-Tyanmao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +406,7 @@
 		};
 		EF45F41E22CAEDAC00BB4C2C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62742688DD65A84712DE604 /* Pods-Tyanmao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

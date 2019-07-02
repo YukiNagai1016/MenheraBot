@@ -1,0 +1,6 @@
+framework module Pods_Tyanmao {
+  umbrella header "Pods-Tyanmao-umbrella.h"
+
+  export *
+  module * { export * }
+}
